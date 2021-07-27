@@ -1,0 +1,76 @@
+.container{
+    max-width: 540px;
+    height: 300px;
+    background-color: #f78501;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    position: absolute;
+    margin-top: 120px;
+    color: white;
+}
+.logo{
+    margin-top: 50px;
+    width: 350px;
+    height: 60px;
+    background-color: white;
+}
+.logo img{
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.inputbar{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.inputbar input{
+    width: 220px;
+    height: 28px;
+}
+.inputbar button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+}
+.inputbar button:hover{
+    background-color: rgb(161, 158, 158);
+}
+.todoList{
+    max-width: 540px;
+    margin-left: 345px;
+    list-style: none;
+
+}
+
+.todoList li{
+    max-width: 540px;
+    cursor: pointer;
+    background: #e9e8e8;
+    display: flex;
+    justify-content: space-between;
+}
+.todoList li span{
+    padding: 20px;
+}
+.todoList li:hover{
+    background: #ddd;
+}
+.checked{
+    text-decoration: line-through;
+}
+.close{
+    text-align: center;
+    font-size: 20px;
+    padding: 18px;
+    cursor: pointer;
+    background: #e9e8e8;
+    text-decoration: none !important;
+}
+.close:hover{
+    background-color: #f78501;
+}
